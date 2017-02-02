@@ -1,0 +1,28 @@
+{
+  "name": "fontfeatures",
+  "version": "0.0.0",
+  "description": "Command line utility for detecting a font file’s available OpenType features.",
+  "bin": {
+    "fontfeatures": "bin/fontfeatures.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannerhodges/fontfeatures.git"
+  },
+  "author": {
+    "name": "Tanner Hodges",
+    "email": "austintannerhodges@gmail.com",
+    "url": "http://tannerhodges.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tannerhodges/fontfeatures/issues"
+  },
+  "homepage": "https://github.com/tannerhodges/fontfeatures#readme",
+  "dependencies": {
+    "fontkit": "^1.5.2"
+  }
+}
