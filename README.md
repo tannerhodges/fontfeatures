@@ -1,6 +1,6 @@
 # fontfeatures
 
-Command line utility for detecting a font file’s available [OpenType features](https://www.microsoft.com/typography/otspec/featurelist.htm).
+Detect a font file’s available [OpenType features](https://www.microsoft.com/typography/otspec/featurelist.htm).
 
 Uses [Fontkit](https://github.com/devongovett/fontkit/) to read font files and spit out basic information. For example, “Does this font support small caps?”
 

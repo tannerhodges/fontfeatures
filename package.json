@@ -1,7 +1,7 @@
 {
   "name": "fontfeatures",
   "version": "0.0.2",
-  "description": "Command line utility for detecting a font file’s available OpenType features.",
+  "description": "Detect a font file’s available OpenType features.",
   "bin": {
     "fontfeatures": "bin/fontfeatures.js"
   },
