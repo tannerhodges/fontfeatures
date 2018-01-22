@@ -24,5 +24,29 @@
   "homepage": "https://github.com/tannerhodges/fontfeatures#readme",
   "dependencies": {
     "fontkit": "^1.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "blob-to-buffer": "^1.2.6",
+    "browserify": "^15.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglify": "^3.0.0",
+    "gulplog": "^1.0.0",
+    "lata": "^0.1.2",
+    "minimis": "^0.1.7",
+    "npm-sass": "^2.2.1",
+    "stylelint-config-property-sort-order-smacss": "^2.0.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }

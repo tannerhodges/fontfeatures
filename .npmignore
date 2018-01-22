@@ -1,0 +1,10 @@
+*.sublime-project
+*.sublime-workspace
+*.tgz
+.babelrc
+.editorconfig
+.jshintrc
+.stylelintrc
+docs/
+gulpfile.js
+resources/
