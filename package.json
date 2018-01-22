@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/tannerhodges/fontfeatures#readme",
   "dependencies": {
-    "fontkit": "^1.5.2"
+    "fontkit": "^1.5.2",
+    "update-notifier": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

@@ -1,12 +1,20 @@
 #! /usr/bin/env node
-var path = process.argv[2];
+
+// Check for updates
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+
+updateNotifier({ pkg }).notify();
+
+// Read font features
+const path = process.argv[2];
 
 if (!path) {
   throw 'Whoops! We need a font to check: `fontfeatures [PATH_TO_FONT]`';
 }
 
-var fontkit = require('fontkit');
-var font = fontkit.openSync(path);
+const fontkit = require('fontkit');
+const font = fontkit.openSync(path);
 
 console.log('');
 
@@ -29,6 +37,6 @@ console.log('OpenType Features: ' + font.availableFeatures.join(', '));
 console.log('');
 
 // Small Caps
-var hasSmallCaps = font.availableFeatures.indexOf('smcp') > -1;
+let hasSmallCaps = font.availableFeatures.indexOf('smcp') > -1;
 console.log(hasSmallCaps ? '✅  Yes, this font supports small caps.' : '❌  No, this font does not support small caps.');
 console.log('');
