@@ -1,6 +1,6 @@
 {
   "name": "fontfeatures",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Detect a font file’s available OpenType features.",
   "bin": {
     "fontfeatures": "bin/fontfeatures.js"
